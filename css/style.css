@@ -37,6 +37,10 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .section {
   padding-bottom: 94px;
 }
@@ -243,7 +247,7 @@ border-radius: 4px;
 /*Чем мы занимаемся*/
 
 .our-work-title {
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .our-work-examples {
@@ -263,7 +267,7 @@ padding-bottom: 50px;
   line-height: 1.2;
   text-align: center;
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
@@ -286,8 +290,8 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-name-position {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .our-team-name {
@@ -316,7 +320,7 @@ border-radius: 0px 0px 4px 4px;
 .filtr {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .filtr .item+.item {
@@ -352,8 +356,7 @@ border-radius: 0px 0px 4px 4px;
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
-  width: 1200px;
+  margin: -15px;
 }
 
 .projects li {
