@@ -33,11 +33,11 @@
         </div>
     </header>
 
-    <main class="section">
+    <main>
         <h1 class="potrtfolio-main-title">Портфолио</h1>
 
-        <!-- Фильтры -->
-        <section class="">
+        <section class="potrtfolio section">
+            <!-- Фильтры -->
             <ul class="filtr list container">
                 <li class="item"><button type="button" class="filtr-button">Все</button></li>
                 <li class="item"><button type="button" class="filtr-button">Веб-сайты</button></li>
@@ -45,63 +45,61 @@
                 <li class="item"><button type="button" class="filtr-button">Дизайн</button></li>
                 <li class="item"><button type="button" class="filtr-button">Маркетинг</button></li>
             </ul>
-        </section>
 
-        <!-- Проекты -->
-        <section>
+            <!-- Проекты -->
             <ul class="projects list">
                 <li>
                     <img src="./images/portfolio/technokryak.jpg" alt="laptop with people in monitor" width="370" height="294">
-                    <h2 class="project-title">Технокряк</h2>
-                    <p class="project-description">Веб-сайт</p>
+                    <div class="project-card"><h2 class="project-title">Технокряк</h2>
+                    <p class="project-description">Веб-сайт</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/poster-new-orlean-vs-golden-star.jpg" alt="basketball" width="370" height="294">
-                    <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="project-description">Дизайн</p>
+                    <div class="project-card"><h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="project-description">Дизайн</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/restaurant-seafood.jpg" alt="fish" width="370" height="294">
-                    <h2 class="project-title">Ресторан Seafood</h2>
-                    <p class="project-description">Приложение</p>
+                <div class="project-card"><h2 class="project-title">Ресторан Seafood</h2>
+                <p class="project-description">Приложение</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/project-prime.jpg" alt="headphones" width="370" height="294">
-                    <h2 class="project-title">Проект Prime</h2>
-                    <p class="project-description">Маркетинг</p>
+                    <div class="project-card"><h2 class="project-title">Проект Prime</h2>
+                    <p class="project-description">Маркетинг</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/project-boxes.jpg" alt="boxes" width="370" height="294">
-                    <h2 class="project-title">Проект Boxes</h2>
-                    <p class="project-description">Приложение</p>
+                    <div class="project-card"><h2 class="project-title">Проект Boxes</h2>
+                    <p class="project-description">Приложение</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/inspiration-has-no-borders.jpg" alt="dekstop monitor" width="370" height="294">
-                    <h2 class="project-title">Inspiration has no Borders</h2>
-                    <p class="project-description">Веб-сайт</p>
+                    <div class="project-card"><h2 class="project-title">Inspiration has no Borders</h2>
+                    <p class="project-description">Веб-сайт</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/publication-limited-edition.jpg" alt="magazine" width="370" height="294">
-                    <h2 class="project-title">Издание Limited Edition</h2>
-                    <p class="project-description">Дизайн</p>
+                    <div class="project-card"><h2 class="project-title">Издание Limited Edition</h2>
+                    <p class="project-description">Дизайн</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/project-lab.jpg" alt="label tag" width="370" height="294">
-                    <h2 class="project-title">Проект LAB</h2>
-                    <p class="project-description">Маркетинг</p>
+                    <div class="project-card"><h2 class="project-title">Проект LAB</h2>
+                    <p class="project-description">Маркетинг</p></div>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/growing-business.jpg" alt="laptop" width="370" height="294">
-                    <h2 class="project-title">Growing Business</h2>
-                    <p class="project-description">Приложение</p>
+                    <div class="project-card"><h2 class="project-title">Growing Business</h2>
+                    <p class="project-description">Приложение</p></div>
                 </li>
             </ul>
         </section>
@@ -114,14 +112,16 @@
             <a href="./index.html" class="footer-logo-link">
                 <span class="accent">Web</span>Studio</a>
     
-            <address>
-                <ul class="address list">
-                    <li><a href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265817,30.5377351,18z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-                            class="adress-google-map" target="_blank" rel="noreferrer nofollow noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="address-contact">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+    <address>
+        <ul class="address list">
+            <li class="item"><a
+            href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+Ukraine,+02000/@50.4265817,30.5377351,18z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+            class="adress-google-map" target="_blank" rel="noreferrer nofollow noopener">г. Киев, пр-т Леси
+            Украинки, 26</a></li>
+            <li class="item"><a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111" class="address-contact">+38 096 111 11 11</a></li>
+        </ul>
+    </address>
         </div>
     </footer>
 
